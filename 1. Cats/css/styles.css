@@ -2,11 +2,42 @@
 
 body, html { height: 100%; }
 
-.main {
+body {
+    font-size: 12px;
+    line-height: 16px;
+    font-family: arial, sans-serif;
+    min-width: 960px;
+}
 
+a {
+  color: #65cbf8;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+article, aside, details, footer, header, menu, nav, section { display: block; }
+
+.main {
+	min-height: 100%;
+    position: relative;
 }
 
 .header {
-
+	background: #D4D4D4;
+	padding: 30px 0;
 }
+
+.header_main {
+	margin: 0 auto;
+	width: 960px;
+}
+
+.logo {
+	height: 28px;
+	width: 171px;
+	float: left;
+	display: block;
+	background: url (images/logo.png);
+}
+
 
