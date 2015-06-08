@@ -9,11 +9,10 @@ body {
     min-width: 960px;
 }
 
-a {
-  color: #65cbf8;
-  text-decoration: none;
-  cursor: pointer;
-}
+
+a { color: #65cbf8; text-decoration: none; cursor: pointer; }
+a:hover { text-decoration: underline; }
+a img { border: 0; }
 
 article, aside, details, footer, header, menu, nav, section { display: block; }
 
@@ -36,8 +35,7 @@ article, aside, details, footer, header, menu, nav, section { display: block; }
 	height: 28px;
 	width: 171px;
 	float: left;
-	display: block;
-	background: url (.../images/logo.png);
+	background: url(../images/logo.png);
 }
 
 .header_main:after{
@@ -45,3 +43,27 @@ article, aside, details, footer, header, menu, nav, section { display: block; }
 	display: block;
 	clear: both;
 }
+
+.navigation {
+	float: right;
+	padding-top: 8px;
+	list-style: none; 
+	font-size: 11px; 
+	font-weight: bold; 
+}
+
+.nav_a{ 
+	display: inline-block; 
+	vertical-align: top;
+	padding: 0 0 0 44px;
+	color: #77777b; 
+}
+ .nav_a a {
+ color: #77777b; 
+ }
+ 
+.nav_a:hover ,.nav_a a :hover { 
+	color: #2497e0; 
+	text-decoration: none;
+}
+
